@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1300;1400;1500;1600;1700;1800;1900 & mostrar=intercambiar');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#inicio {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+}
+
+#contacto {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+    background-size: 100%;
+}
+
+#proyectos {
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: #6a6a6a;
+}
+
+#inicio .cohete {
+    height: 400px;
+    ;
+}
+
+#inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border: 0px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.btn-rojo {
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.btn-rojo:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    padding: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 60px;
+    background-color: #370a6d;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.link-rojo {
+    color: red;
+    text-decoration: none;
+}
+
+#contacto footer,
+#inicio footer {
+    color: white;
+}
+
+#contacto footer a,
+#inicio footer a {
+    color: white;
+}
+
+#contacto footer .fa-github,
+#inicio footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+#contacto footer .fa-linkedin-in,
+#inicio footer .fa-linkedin-in {
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#inicio img{
+    height: 400px;
+}
+
+#inicio img:hover{
+    height: 410px;
+}
+
+.cohete{
+    height: 410px;
+}
+
+#proyectos footer {
+    color: red;
+}
+
+#proyectos footer a {
+    color: red;
+}
+
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color: red;
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+.proyectos {
+    background-color: white;
+}
+
+.proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: red;
+    padding: 16px;
+}
+
+.proyectos img {
+    height: 212px;
+}
+
+.proyectos p {
+    font-size: 14;
+    height: 130px;
+}
+
+.active {
+    border-radius: 18px;
+    border: red 1px solid;
+    padding: 5px 10px;
+}
+
+.cv {
+    background-color: #e20000;
+    padding: 7px;
+    border-radius: 12px;
+    resize: none;
+}
+
+.cv a {
+    color: white;
+    text-decoration: none;
+}
+
+form textarea {
+    height: 130px;
+}
+
+.cv:hover {
+    background-color: blueviolet;
+}
+
+form input[type=text],
+form input[type=date],
+form input[type=tel],
+form input[type=email],
+form select,
+form textarea {
+    border-radius: 20px !important;
+    resize: none;
+}
+
+@media (max-width: 750px) {
+    #contacto #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #proyecto {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
